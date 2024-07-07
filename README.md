@@ -13,3 +13,11 @@ Develop a computer vision program to track the movement of balls of different co
 ### Text File:
 
 * Records events in the format: Time, Quadrant Number, Ball Colour, Type (Entry or Exit).
+
+### Tools and Technologies Used:
+
+* YOLOv8x for object detection
+* OpenCV for video processing
+* NumPy for data manipulation
+* Pandas for data storage and manipulation
+* Python for scripting
