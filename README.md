@@ -21,3 +21,16 @@ Develop a computer vision program to track the movement of balls of different co
 * NumPy for data manipulation
 * Pandas for data storage and manipulation
 * Python for scripting
+
+
+### Usage Instructions
+* Clone the repository and navigate to the project directory.
+* Ensure you have the required packages by running:
+  
+```bash
+pip install -r requirements.txt
+```
+
+* Place your input video in the project directory.
+* Update the paths in the process_video function to point to your input video and desired output locations.
+* Run the Jupyter notebook to process the video and generate the output files.
