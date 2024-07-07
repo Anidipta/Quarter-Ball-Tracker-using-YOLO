@@ -3,6 +3,13 @@
 ## Objective:
 Develop a computer vision program to track the movement of balls of different colors across various quadrants in a video. The program will record events of each ball entering and exiting each numbered quadrant and save the details in a specified format. The processed video will display the tracking information and overlay text indicating entry or exit events.
 
+## Model Details
+Two custom YOLOv8x models were used in this project:
+
+- Quadrant Detection Model: This model detects and identifies the quadrants in the video frame.
+- Ball Detection Model: This model detects and tracks balls of different colors, identifying their positions relative to the quadrants.
+
+
 ## Output:
 
 ### Processed Video:
