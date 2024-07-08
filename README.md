@@ -86,6 +86,8 @@ Link to the TXT File --> [CLICK HERE](cleaned_result.txt)
 * NumPy for data manipulation
 * Pandas for data storage and manipulation
 * Python for scripting
+* Kaggle for storing the Video and the models
+* Roboflow for preparing the dataset fpr training , testing and valiation
 
 ### Challenges faced:
 
