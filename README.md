@@ -6,11 +6,25 @@ Develop a computer vision program to track the movement of balls of different co
 ## Model Details
 Two custom YOLOv8x models were used in this project:
 
-- Quadrant Detection Model: This model detects and identifies the quadrants in the video frame.
-- Ball Detection Model: This model detects and tracks balls of different colors, identifying their positions relative to the quadrants.
+- Quadrant Detection Model: This model identifies the quadrants in the video, helping in mapping the ball positions accurately.
+  
+- Ball Detection Model: This model detects balls in the video, identifies their colors, and tracks their movements to determine entry or exit events.
+  
 - Combined Model is used for the final detection using casceding object detection and identification method.
 
 ## Link to the Colab Notebook - [CLICK HERE](https://colab.research.google.com/drive/1EGUlv8hCES5XOHuVv5tpenP1wSIR0ry1?usp=sharing)
+
+## Model Result-
+
+### Ball Detection Model
+ - **Confusion Matrices**
+The confusion matrices show the performance of the detection models.
+
+- **Label Analysis**
+The label analysis includes the distribution of detected classes and their relationships.
+
+- **Detection Results**
+The detection results demonstrate the model's accuracy in identifying balls and their events.
 
 ## Output:
 
