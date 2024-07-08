@@ -16,15 +16,47 @@ Two custom YOLOv8x models were used in this project:
 
 ## Model Result-
 
-### Ball Detection Model
  - **Confusion Matrices**
 The confusion matrices show the performance of the detection models.
+
+<div style="display: flex;">
+  <div style="flex: 1; padding: 10px;">
+    <h5> Ball Detection Model</h5>
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/confusion_matrix(1).png" alt="Image 1" style="width: 100%; max-width: 300px;">
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <h5>Quarter Detection Model</h5>
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/confusion_matrix.png" alt="Image 2" style="width: 100%; max-width: 300px;">
+  </div>
+</div>
 
 - **Label Analysis**
 The label analysis includes the distribution of detected classes and their relationships.
 
+<div style="display: flex;">
+  <div style="flex: 1; padding: 10px;">
+    <h5> Ball Detection Model</h5>
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram(1).jpg" alt="Image 1" style="width: 100%; max-width: 300px;">
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <h5>Quarter Detection Model</h5>
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram.jpg" alt="Image 2" style="width: 100%; max-width: 300px;">
+  </div>
+</div>
+
 - **Detection Results**
 The detection results demonstrate the model's accuracy in identifying balls and their events.
+
+<div style="display: flex;">
+  <div style="flex: 1; padding: 10px;">
+    <h5> Ball Detection Model</h5>
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/results(1).png" alt="Image 1" style="width: 100%; max-width: 300px;">
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <h5>Quarter Detection Model</h5>
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/results.png" alt="Image 2" style="width: 100%; max-width: 300px;">
+  </div>
+</div>
 
 ## Output:
 
@@ -35,6 +67,11 @@ The detection results demonstrate the model's accuracy in identifying balls and 
 * Detection Boxes with confidence level
 
 Link to the Processed video --> [CLICK HERE](https://drive.google.com/file/d/1c_EzHK5AWmWOBoT0Yf4Q2Zuz8NICl0Jl/view?usp=sharing)
+
+
+Demo Image Detected by the model
+
+![demo image.png](https://github.com/Anidipta/AI-Assignment/blob/main/demo%20image.png)
 
 ### Text File:
 
