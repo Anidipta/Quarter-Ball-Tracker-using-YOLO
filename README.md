@@ -20,11 +20,13 @@ Two custom YOLOv8x models were used in this project:
 * Time Tracker at the Left Top corner
 * Detection Boxes with confidence level
 
-  Link to the Processed video --> [CLICK HERE](https://drive.google.com/file/d/1c_EzHK5AWmWOBoT0Yf4Q2Zuz8NICl0Jl/view?usp=sharing)
+Link to the Processed video --> [CLICK HERE](https://drive.google.com/file/d/1c_EzHK5AWmWOBoT0Yf4Q2Zuz8NICl0Jl/view?usp=sharing)
 
 ### Text File:
 
 * Records events in the format: Time, Quadrant Number, Ball Colour, Type (Entry or Exit).
+
+Link to the TXT File --> [CLICJ HERE](cleaned_result.txt)
 
 ### Tools and Technologies Used:
 
