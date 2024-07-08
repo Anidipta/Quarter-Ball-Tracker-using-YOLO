@@ -26,7 +26,7 @@ Link to the Processed video --> [CLICK HERE](https://drive.google.com/file/d/1c_
 
 * Records events in the format: Time, Quadrant Number, Ball Colour, Type (Entry or Exit).
 
-Link to the TXT File --> [CLICJ HERE](cleaned_result.txt)
+Link to the TXT File --> [CLICK HERE](cleaned_result.txt)
 
 ### Tools and Technologies Used:
 
@@ -36,7 +36,14 @@ Link to the TXT File --> [CLICJ HERE](cleaned_result.txt)
 * Pandas for data storage and manipulation
 * Python for scripting
 
+### Challenges faced:
 
+1. **Object Tracking and Identification**: Maintaining the identity of each ball across frames is challenging due to occlusions and rapid movements.
+2. **Real-time Performance**: Processing each frame of the video in real-time with complex models is computationally intensive and slow.
+3. **Accuracy of Detection**: Ensuring high accuracy of ball and quarter detection in varied lighting and background conditions is difficult.
+4. **State Management**: Correctly identifying and updating the state of balls (new, kept, or left) while tracking multiple objects in dynamic scenes is complex.
+
+   
 ### Usage Instructions
 * Clone the repository and navigate to the project directory.
 * Ensure you have the required packages by running:
