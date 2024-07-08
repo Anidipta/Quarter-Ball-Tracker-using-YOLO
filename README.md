@@ -8,14 +8,19 @@ Two custom YOLOv8x models were used in this project:
 
 - Quadrant Detection Model: This model detects and identifies the quadrants in the video frame.
 - Ball Detection Model: This model detects and tracks balls of different colors, identifying their positions relative to the quadrants.
+- Combined Model is used for the final detection using casceding object detection and identification method.
 
+## Link to the Colab Notebook - [CLICK HERE](https://colab.research.google.com/drive/1EGUlv8hCES5XOHuVv5tpenP1wSIR0ry1?usp=sharing)
 
 ## Output:
 
 ### Processed Video:
 
 * Tracks balls with their colors.
-* Overlays text “Entry” or “Exit” with a timestamp when a ball enters or exits a quadrant.
+* Time Tracker at the Left Top corner
+* Detection Boxes with confidence level
+
+  Link to the Processed video --> [CLICK HERE](https://drive.google.com/file/d/1c_EzHK5AWmWOBoT0Yf4Q2Zuz8NICl0Jl/view?usp=sharing)
 
 ### Text File:
 
