@@ -36,11 +36,11 @@ The label analysis includes the distribution of detected classes and their relat
 <div style="display: flex;">
   <div style="flex: 1; padding: 10px;">
     <h5> Ball Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram(1).jpg" alt="Image 1" style="width: 100%; max-width: 300px;">
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram(1).jpg" alt="Image 1" style="width: 50%; max-width: 300px;">
   </div>
   <div style="flex: 1; padding: 10px;">
     <h5>Quarter Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram.jpg" alt="Image 2" style="width: 100%; max-width: 300px;">
+    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram.jpg" alt="Image 2" style="width: 50%; max-width: 300px;">
   </div>
 </div>
 
