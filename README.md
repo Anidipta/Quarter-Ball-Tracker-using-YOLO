@@ -1,110 +1,108 @@
-# Project Title: Ball Tracking and Event Detection in Video 
+# Project Title: Ball ⚽ Tracking  and Event Detection in Video 🎥
 
-## Objective:
-Develop a computer vision program to track the movement of balls of different colors across various quadrants in a video. The program will record events of each ball entering and exiting each numbered quadrant and save the details in a specified format. The processed video will display the tracking information and overlay text indicating entry or exit events.
+## **Objective:**
+Develop an advanced computer vision program to track and classify the movement of balls in various colors across different quadrants within a video. The system will record each ball's entry and exit events from each numbered quadrant, displaying this information overlayed on the processed video.
 
-## Model Details
-Two custom YOLOv8x models were used in this project:
+## **Model Details:**
 
-- Quadrant Detection Model: This model identifies the quadrants in the video, helping in mapping the ball positions accurately.
+Two custom YOLOv8x models were employed in this project:
+
+- **🔲 Quadrant Detection Model**: Identifies quadrants in the video to accurately map ball positions.
   
-- Ball Detection Model: This model detects balls in the video, identifies their colors, and tracks their movements to determine entry or exit events.
-  
-- Combined Model is used for the final detection using casceding object detection and identification method.
+- **🏀 Ball Detection Model**: Detects balls, classifies their colors, and tracks their movements to log entry and exit events.
 
-## Link to the Colab Notebook - [CLICK HERE](https://colab.research.google.com/drive/1EGUlv8hCES5XOHuVv5tpenP1wSIR0ry1?usp=sharing)
+- **⚙️ Combined Model**: Integrates the above models using a cascading object detection approach for comprehensive detection and identification.
 
-## Model Result-
+## **Links and Results:**
 
- - **Confusion Matrices**
-The confusion matrices show the performance of the detection models.
+- **📔 Link to the Colab Notebook**: [CLICK HERE](https://colab.research.google.com/drive/1EGUlv8hCES5XOHuVv5tpenP1wSIR0ry1?usp=sharing)
 
-<div style="display: flex;">
-  <div style="flex: 1; padding: 10px;">
-    <h5> Ball Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/confusion_matrix(1).png" alt="Image 1" style="width: 50%; max-width: 300px;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <h5>Quarter Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/confusion_matrix.png" alt="Image 2" style="width: 50%; max-width: 300px;">
-  </div>
-</div>
+### **🔍 Model Results:**
+
+- **Confusion Matrices**
+  - **Ball Detection Model**: 
+    <div style="display: flex;">
+      <div style="flex: 1; padding: 10px;">
+        <h5>📊 Ball Detection Model</h5>
+        <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/confusion_matrix(1).png" alt="Ball Detection Confusion Matrix" style="width: 100%; max-width: 300px;">
+      </div>
+      <div style="flex: 1; padding: 10px;">
+        <h5>📊 Quadrant Detection Model</h5>
+        <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/confusion_matrix.png" alt="Quadrant Detection Confusion Matrix" style="width: 100%; max-width: 300px;">
+      </div>
+    </div>
 
 - **Label Analysis**
-The label analysis includes the distribution of detected classes and their relationships.
-
-<div style="display: flex;">
-  <div style="flex: 1; padding: 10px;">
-    <h5> Ball Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram(1).jpg" alt="Image 1" style="width: 50%; max-width: 300px;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <h5>Quarter Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram.jpg" alt="Image 2" style="width: 50%; max-width: 300px;">
-  </div>
-</div>
+  - **Ball Detection Model**: 
+    <div style="display: flex;">
+      <div style="flex: 1; padding: 10px;">
+        <h5>📈 Ball Detection Model</h5>
+        <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram(1).jpg" alt="Ball Detection Label Analysis" style="width: 100%; max-width: 300px;">
+      </div>
+      <div style="flex: 1; padding: 10px;">
+        <h5>📈 Quadrant Detection Model</h5>
+        <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/labels_correlogram.jpg" alt="Quadrant Detection Label Analysis" style="width: 100%; max-width: 300px;">
+      </div>
+    </div>
 
 - **Detection Results**
-The detection results demonstrate the model's accuracy in identifying balls and their events.
+  - **Ball Detection Model**: 
+    <div style="display: flex;">
+      <div style="flex: 1; padding: 10px;">
+        <h5>🔍 Ball Detection Model</h5>
+        <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/results(1).png" alt="Ball Detection Results" style="width: 100%; max-width: 300px;">
+      </div>
+      <div style="flex: 1; padding: 10px;">
+        <h5>🔍 Quadrant Detection Model</h5>
+        <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/results.png" alt="Quadrant Detection Results" style="width: 100%; max-width: 300px;">
+      </div>
+    </div>
 
-<div style="display: flex;">
-  <div style="flex: 1; padding: 10px;">
-    <h5> Ball Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/results(1).png" alt="Image 1" style="width: 100%; max-width: 300px;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <h5>Quarter Detection Model</h5>
-    <img src="https://github.com/Anidipta/AI-Assignment/blob/main/Image/results.png" alt="Image 2" style="width: 100%; max-width: 300px;">
-  </div>
-</div>
+## **Output:**
 
-## Output:
+### **🎬 Processed Video:**
 
-### Processed Video:
+- Tracks balls with color identification.
+- Displays time stamps in the top left corner.
+- Shows detection boxes with confidence levels.
 
-* Tracks balls with their colors.
-* Time Tracker at the Left Top corner
-* Detection Boxes with confidence level
+- **🔗 Link to the Processed Video**: [CLICK HERE](https://drive.google.com/file/d/1c_EzHK5AWmWOBoT0Yf4Q2Zuz8NICl0Jl/view?usp=sharing)
 
-Link to the Processed video --> [CLICK HERE](https://drive.google.com/file/d/1c_EzHK5AWmWOBoT0Yf4Q2Zuz8NICl0Jl/view?usp=sharing)
+- **🖼️ Demo Image Detected by the Model:**
+  ![Demo Image](https://github.com/Anidipta/AI-Assignment/blob/main/demo%20image.png)
 
+### **📄 Text File:**
 
-Demo Image Detected by the model
+- Records events with format: Time, Quadrant Number, Ball Color, Type (Entry or Exit).
 
-![demo image.png](https://github.com/Anidipta/AI-Assignment/blob/main/demo%20image.png)
+- **🔗 Link to the TXT File**: [CLICK HERE](cleaned_result.txt)
 
-### Text File:
+## **Tools and Technologies Used:**
 
-* Records events in the format: Time, Quadrant Number, Ball Colour, Type (Entry or Exit).
+- **🧠 YOLOv8x** for advanced object detection.
+- **🔧 OpenCV** for video processing.
+- **🔢 NumPy** for efficient data manipulation.
+- **📊 Pandas** for data management and analysis.
+- **🐍 Python** for scripting and integration.
+- **🔒 Kaggle** for storing videos and models.
+- **🗂️ Roboflow** for dataset preparation (training, testing, and validation).
 
-Link to the TXT File --> [CLICK HERE](cleaned_result.txt)
+## **Challenges Faced:**
 
-### Tools and Technologies Used:
+1. **🔄 Object Tracking and Identification**: Maintaining ball identity across frames despite occlusions and rapid movement.
+2. **⏱️ Real-time Performance**: Processing each video frame in real-time while managing complex models.
+3. **🎯 Accuracy of Detection**: Achieving high detection accuracy under varied lighting and backgrounds.
+4. **🔄 State Management**: Correctly updating the state of balls while tracking multiple objects in dynamic scenes.
 
-* YOLOv8x for object detection
-* OpenCV for video processing
-* NumPy for data manipulation
-* Pandas for data storage and manipulation
-* Python for scripting
-* Kaggle for storing the Video and the models
-* Roboflow for preparing the dataset fpr training , testing and valiation
+## **Usage Instructions:**
 
-### Challenges faced:
+1. Clone the repository and navigate to the project directory.
+2. Ensure all required packages are installed by running:
 
-1. **Object Tracking and Identification**: Maintaining the identity of each ball across frames is challenging due to occlusions and rapid movements.
-2. **Real-time Performance**: Processing each frame of the video in real-time with complex models is computationally intensive and slow.
-3. **Accuracy of Detection**: Ensuring high accuracy of ball and quarter detection in varied lighting and background conditions is difficult.
-4. **State Management**: Correctly identifying and updating the state of balls (new, kept, or left) while tracking multiple objects in dynamic scenes is complex.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-   
-### Usage Instructions
-* Clone the repository and navigate to the project directory.
-* Ensure you have the required packages by running:
-  
-```bash
-pip install -r requirements.txt
-```
-
-* Place your input video in the project directory.
-* Update the paths in the process_video function to point to your input video and desired output locations.
-* Run the Jupyter notebook to process the video and generate the output files.
+3. Place your input video in the project directory.
+4. Update the paths in the `process_video` function to point to your input video and desired output locations.
+5. Run the Jupyter notebook to process the video and generate output files.
